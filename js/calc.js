@@ -1,7 +1,7 @@
 function Calculator(form, summary) {
     this.prices = {
         products: 0.5,
-        orders: 0.25,
+        orders: 0.5,
         package: {
             basic: 0,
             professional: 25,
@@ -68,11 +68,22 @@ Calculator.prototype.selectEvent = function (e) {
     const value = typeof e.target.dataset.value !== "undefined" ? e.target.dataset.value : "";
     const text = typeof e.target.dataset.value !== "undefined" ? e.target.innerText : "Choose package";
 
+
     if (value.length > 0) {
         this.form.package.dataset.value = value;
         this.form.package.querySelector(".select__input").innerText = text;
-
+        this.summary.package.classList.add("open");
+        this.summary.package.children[1].innerText = text;
+        if(text === "Basic"){
+            this.summary.package.children[2].innerText = "$" + this.prices.package.basic;
+        }else if(text === "Professional"){
+            this.summary.package.children[2].innerText = "$" + this.prices.package.professional;
+        }else if(text === "Premium"){
+            this.summary.package.children[2].innerText = "$" + this.prices.package.premium;
+        }
         this.total();
+    }else {
+        this.summary.package.classList.remove("open");
     }
 };
 
