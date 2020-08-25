@@ -63,11 +63,11 @@ Calculator.prototype.package = function (e){
 };
 
 Calculator.prototype.selectEvent = function (e) {
-    this.form.package.classList.toggle("open");
 
     const value = typeof e.target.dataset.value !== "undefined" ? e.target.dataset.value : "";
     const text = typeof e.target.dataset.value !== "undefined" ? e.target.innerText : "Choose package";
 
+    this.form.package.classList.toggle("open");
 
     if (value.length > 0) {
         this.form.package.dataset.value = value;
