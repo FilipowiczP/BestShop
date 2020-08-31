@@ -1,4 +1,5 @@
 It's a second project which one I did in CoodersLab bootcamp. Whole project we had creaded in adobe xd.
+I used here HTML, Sass and JS.
 
 In the project directory, you can run:
 
