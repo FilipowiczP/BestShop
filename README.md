@@ -9,12 +9,10 @@ You will also see any lint errors in the console.
 
 Mobile version
 
-![](mobilebestshop.png)
-
 
 Desktop
 
-![](bestshop.png)
+![bestshop](https://user-images.githubusercontent.com/66370279/91751876-c0907a00-ebc5-11ea-85f5-f0028d8aa05f.png)
 
 
 Calculator
