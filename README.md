@@ -1,3 +1,5 @@
+It's a second project which one I did in CoodersLab bootcamp. Whole project we had creaded in adobe xd.
+
 In the project directory, you can run:
 
 ### `gulp`
@@ -6,7 +8,6 @@ Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
-
 
 ### `Desktop`
 
