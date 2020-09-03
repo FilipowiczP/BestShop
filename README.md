@@ -5,11 +5,11 @@ I used here HTML, Sass and JS.
 
 ### `Technologies`
 
-*HTML
-*CSS
-*JavaScript
-*Sass
-*Gulp
+* HTML
+* CSS
+* JavaScript
+* Sass
+* Gulp
 
 In the project directory, you can run:
 
