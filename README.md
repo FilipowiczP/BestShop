@@ -1,9 +1,20 @@
+### `General info`
+
 It's a second project which one I did in CoodersLab bootcamp. Whole project we had create in adobe xd.
 I used here HTML, Sass and JS.
+
+### `Technologies`
+
+*HTML
+*CSS
+*JavaScript
+*Sass
+*Gulp
 
 In the project directory, you can run:
 
 ### `gulp`
+
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
