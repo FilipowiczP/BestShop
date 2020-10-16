@@ -1,7 +1,5 @@
 ### `General info`
-
-It's a second project which one I did in CoodersLab bootcamp. Whole project we had create in adobe xd.
-I used here HTML, Sass and JS.
+I improved this page together with the technologies I learned
 
 ### `Technologies`
 
